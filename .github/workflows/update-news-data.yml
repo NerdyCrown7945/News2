@@ -1,0 +1,28 @@
+name: Update Static News Data
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install backend deps
+        run: pip install -r backend/requirements.txt
+      - name: Validate sources
+        run: cd backend && PYTHONPATH=. python tools/validate_sources.py
+      - name: Generate static data
+        run: cd backend && PYTHONPATH=. python tools/generate_static_data.py --max-articles 150
+      - name: Commit updates
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add frontend/public/data
+          git diff --staged --quiet || git commit -m 'chore: update static news data'
+          git push

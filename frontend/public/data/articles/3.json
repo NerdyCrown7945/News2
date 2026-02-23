@@ -1,0 +1,21 @@
+{
+  "id": 3,
+  "title": "Lab update",
+  "title_ko": "연구소 업데이트",
+  "url": "",
+  "source": "Example Research",
+  "topic": "ai",
+  "published_at": "2026-02-18T08:20:00+00:00",
+  "summary_one_liner_ko": "홈/섹션 링크만 제공된 경우 원문 링크를 비웁니다.",
+  "summary_lines_ko": [
+    "RSS가 개별 기사 대신 섹션 링크를 주는 경우가 있습니다.",
+    "이 프로젝트는 가짜 URL 생성 없이 빈 문자열로 저장합니다.",
+    "UI에서 원문 링크 없음 배지를 표시합니다."
+  ],
+  "key_points_ko": [
+    "핵심 1: 링크 정책 엄수",
+    "핵심 2: 추측 URL 금지",
+    "핵심 3: 사용자 안내 표시"
+  ],
+  "tags": ["policy", "link"]
+}

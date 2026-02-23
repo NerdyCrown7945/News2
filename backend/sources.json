@@ -1,0 +1,957 @@
+[
+  {
+    "id": "openai-blog",
+    "name": "OpenAI Blog",
+    "feed_url": "https://openai.com/news/rss.xml",
+    "site_url": "https://openai.com/news",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "llm",
+      "research"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "google-ai-blog",
+    "name": "Google AI Blog",
+    "feed_url": "https://blog.google/technology/ai/rss/",
+    "site_url": "https://blog.google/technology/ai/",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "google",
+      "ai"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "deepmind-blog",
+    "name": "Google DeepMind",
+    "feed_url": "https://deepmind.google/discover/blog/rss.xml",
+    "site_url": "https://deepmind.google/discover/blog/",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "research"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "anthropic-news",
+    "name": "Anthropic News",
+    "feed_url": "https://www.anthropic.com/news/rss.xml",
+    "site_url": "https://www.anthropic.com/news",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "safety"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "meta-ai",
+    "name": "Meta AI",
+    "feed_url": "https://ai.meta.com/blog/rss/",
+    "site_url": "https://ai.meta.com/blog/",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "meta"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "microsoft-research",
+    "name": "Microsoft Research",
+    "feed_url": "https://www.microsoft.com/en-us/research/feed/",
+    "site_url": "https://www.microsoft.com/en-us/research/",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "microsoft",
+      "research"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "nvidia-blog",
+    "name": "NVIDIA Blog",
+    "feed_url": "https://blogs.nvidia.com/feed/",
+    "site_url": "https://blogs.nvidia.com",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "gpu",
+      "ai"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "aws-ml-blog",
+    "name": "AWS ML Blog",
+    "feed_url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+    "site_url": "https://aws.amazon.com/blogs/machine-learning/",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "cloud"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "hf-blog",
+    "name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml",
+    "site_url": "https://huggingface.co/blog",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "open-source"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "stability-blog",
+    "name": "Stability AI",
+    "feed_url": "https://stability.ai/news/rss.xml",
+    "site_url": "https://stability.ai/news",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "genai"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "mit-tech",
+    "name": "MIT Technology Review AI",
+    "feed_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+    "site_url": "https://www.technologyreview.com/topic/artificial-intelligence/",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "media"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "venturebeat-ai",
+    "name": "VentureBeat AI",
+    "feed_url": "https://venturebeat.com/category/ai/feed/",
+    "site_url": "https://venturebeat.com/category/ai/",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "media"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "theverge-ai",
+    "name": "The Verge AI",
+    "feed_url": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml",
+    "site_url": "https://www.theverge.com/ai-artificial-intelligence",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "media"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "wired-ai",
+    "name": "WIRED AI",
+    "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+    "site_url": "https://www.wired.com/tag/ai/",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "media"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "arstechnica-ai",
+    "name": "Ars Technica AI",
+    "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+    "site_url": "https://arstechnica.com",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "media"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "towardsdatascience",
+    "name": "Towards Data Science",
+    "feed_url": "https://towardsdatascience.com/feed",
+    "site_url": "https://towardsdatascience.com",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "data-science"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "kdnuggets",
+    "name": "KDnuggets",
+    "feed_url": "https://www.kdnuggets.com/feed",
+    "site_url": "https://www.kdnuggets.com",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "ml"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "ml-substack",
+    "name": "Import AI",
+    "feed_url": "https://importai.substack.com/feed",
+    "site_url": "https://importai.substack.com",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "newsletter"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "ai-news",
+    "name": "AI News",
+    "feed_url": "https://www.artificialintelligence-news.com/feed/",
+    "site_url": "https://www.artificialintelligence-news.com",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "media"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "synced",
+    "name": "Synced",
+    "feed_url": "https://syncedreview.com/feed/",
+    "site_url": "https://syncedreview.com",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "low",
+    "tags": [
+      "media"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "nature-news",
+    "name": "Nature News",
+    "feed_url": "https://www.nature.com/nature.rss",
+    "site_url": "https://www.nature.com",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "journal"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "science-news",
+    "name": "Science Magazine",
+    "feed_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+    "site_url": "https://www.science.org",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "journal"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "newscientist",
+    "name": "New Scientist",
+    "feed_url": "https://www.newscientist.com/feed/home/",
+    "site_url": "https://www.newscientist.com",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "media"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "scientificamerican",
+    "name": "Scientific American",
+    "feed_url": "https://www.scientificamerican.com/feed/",
+    "site_url": "https://www.scientificamerican.com",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "media"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "ieee-spectrum",
+    "name": "IEEE Spectrum",
+    "feed_url": "https://spectrum.ieee.org/rss/fulltext",
+    "site_url": "https://spectrum.ieee.org",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "engineering"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "acm-technews",
+    "name": "ACM TechNews",
+    "feed_url": "https://technews.acm.org/rss.xml",
+    "site_url": "https://technews.acm.org",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "computing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "nasa-news",
+    "name": "NASA News",
+    "feed_url": "https://www.nasa.gov/news-release/feed/",
+    "site_url": "https://www.nasa.gov/news",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "space"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "esa-news",
+    "name": "ESA News",
+    "feed_url": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
+    "site_url": "https://www.esa.int",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "space"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "cern-news",
+    "name": "CERN News",
+    "feed_url": "https://home.cern/news/rss",
+    "site_url": "https://home.cern/news",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "physics"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "nih-news",
+    "name": "NIH News",
+    "feed_url": "https://www.nih.gov/news-events/news-releases/feed",
+    "site_url": "https://www.nih.gov/news-events",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "medicine"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "who-news",
+    "name": "WHO News",
+    "feed_url": "https://www.who.int/feeds/entity/mediacentre/news/en/rss.xml",
+    "site_url": "https://www.who.int/news",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "health"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "statnews",
+    "name": "STAT News",
+    "feed_url": "https://www.statnews.com/feed/",
+    "site_url": "https://www.statnews.com",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "biotech"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "medrxiv",
+    "name": "medRxiv",
+    "feed_url": "https://www.medrxiv.org/rss/recent.xml",
+    "site_url": "https://www.medrxiv.org",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "preprint"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "arxiv-csai",
+    "name": "arXiv cs.AI",
+    "feed_url": "https://export.arxiv.org/rss/cs.AI",
+    "site_url": "https://arxiv.org/list/cs.AI/recent",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "preprint"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "arxiv-cslg",
+    "name": "arXiv cs.LG",
+    "feed_url": "https://export.arxiv.org/rss/cs.LG",
+    "site_url": "https://arxiv.org/list/cs.LG/recent",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "preprint"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "arxiv-cvro",
+    "name": "arXiv cs.CV",
+    "feed_url": "https://export.arxiv.org/rss/cs.CV",
+    "site_url": "https://arxiv.org/list/cs.CV/recent",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "preprint"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "arxiv-statml",
+    "name": "arXiv stat.ML",
+    "feed_url": "https://export.arxiv.org/rss/stat.ML",
+    "site_url": "https://arxiv.org/list/stat.ML/recent",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "preprint"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "techcrunch-ai",
+    "name": "TechCrunch AI",
+    "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "site_url": "https://techcrunch.com/category/artificial-intelligence/",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "startup"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "engadget",
+    "name": "Engadget",
+    "feed_url": "https://www.engadget.com/rss.xml",
+    "site_url": "https://www.engadget.com",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "gadgets"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "slashdot",
+    "name": "Slashdot",
+    "feed_url": "http://rss.slashdot.org/Slashdot/slashdotMain",
+    "site_url": "https://slashdot.org",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "opensource"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "register",
+    "name": "The Register",
+    "feed_url": "https://www.theregister.com/headlines.atom",
+    "site_url": "https://www.theregister.com",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "infra"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "zdnet",
+    "name": "ZDNet",
+    "feed_url": "https://www.zdnet.com/news/rss.xml",
+    "site_url": "https://www.zdnet.com",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "enterprise"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "infoq-ai",
+    "name": "InfoQ AI/ML",
+    "feed_url": "https://www.infoq.com/ai-ml-data-eng/feed/",
+    "site_url": "https://www.infoq.com/ai-ml-data-eng/",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "engineering"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "thenextweb-ai",
+    "name": "TNW AI",
+    "feed_url": "https://thenextweb.com/neural/feed",
+    "site_url": "https://thenextweb.com/neural",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "media"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "scitechdaily",
+    "name": "SciTechDaily",
+    "feed_url": "https://scitechdaily.com/feed/",
+    "site_url": "https://scitechdaily.com",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "science"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "physorg",
+    "name": "Phys.org",
+    "feed_url": "https://phys.org/rss-feed/",
+    "site_url": "https://phys.org",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "science"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "spacecom",
+    "name": "Space.com",
+    "feed_url": "https://www.space.com/feeds/all",
+    "site_url": "https://www.space.com",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "space"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "eurekalert",
+    "name": "EurekAlert",
+    "feed_url": "https://www.eurekalert.org/rss.xml",
+    "site_url": "https://www.eurekalert.org",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "research"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "aaas-news",
+    "name": "AAAS News",
+    "feed_url": "https://www.aaas.org/rss/news",
+    "site_url": "https://www.aaas.org/news",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "science-policy"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "nih-research",
+    "name": "NIH Research Matters",
+    "feed_url": "https://www.nih.gov/feed/news-events/news-releases",
+    "site_url": "https://www.nih.gov/news-events",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "medicine"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "nature-astronomy",
+    "name": "Nature Astronomy",
+    "feed_url": "https://www.nature.com/natastron.rss",
+    "site_url": "https://www.nature.com/natastron/",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "space"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "nasa-image",
+    "name": "NASA Image of the Day",
+    "feed_url": "https://www.nasa.gov/feeds/iotd-feed/",
+    "site_url": "https://www.nasa.gov",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "space"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "usgs",
+    "name": "USGS News",
+    "feed_url": "https://www.usgs.gov/news/feed",
+    "site_url": "https://www.usgs.gov/news",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "earth"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "noaa",
+    "name": "NOAA News",
+    "feed_url": "https://www.noaa.gov/news/rss.xml",
+    "site_url": "https://www.noaa.gov/news",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "climate"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "euronews-tech",
+    "name": "Euronews Next",
+    "feed_url": "https://www.euronews.com/rss?level=program&name=next",
+    "site_url": "https://www.euronews.com/next",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "low",
+    "tags": [
+      "media"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "guardian-tech",
+    "name": "The Guardian Tech",
+    "feed_url": "https://www.theguardian.com/uk/technology/rss",
+    "site_url": "https://www.theguardian.com/uk/technology",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "media"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bbc-tech",
+    "name": "BBC Technology",
+    "feed_url": "http://feeds.bbci.co.uk/news/technology/rss.xml",
+    "site_url": "https://www.bbc.com/news/technology",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "media"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "economist-tech",
+    "name": "Economist Science & Technology",
+    "feed_url": "https://www.economist.com/science-and-technology/rss.xml",
+    "site_url": "https://www.economist.com/science-and-technology",
+    "topic": "scitech",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "media"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "forbes-ai",
+    "name": "Forbes AI",
+    "feed_url": "https://www.forbes.com/ai/feed/",
+    "site_url": "https://www.forbes.com/ai/",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "low",
+    "tags": [
+      "business"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "cointelegraph-ai",
+    "name": "Cointelegraph AI",
+    "feed_url": "https://cointelegraph.com/tags/ai/rss",
+    "site_url": "https://cointelegraph.com/tags/ai",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "low",
+    "tags": [
+      "crypto"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "korea-it",
+    "name": "전자신문",
+    "feed_url": "https://www.etnews.com/rss/070101.xml",
+    "site_url": "https://www.etnews.com",
+    "topic": "scitech",
+    "language_hint": "ko",
+    "reliability": "med",
+    "tags": [
+      "korea",
+      "it"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "zdnet-korea",
+    "name": "ZDNet Korea",
+    "feed_url": "https://zdnet.co.kr/news/news_xml.asp",
+    "site_url": "https://zdnet.co.kr",
+    "topic": "scitech",
+    "language_hint": "ko",
+    "reliability": "med",
+    "tags": [
+      "korea"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "hankyung-ai",
+    "name": "한경 AI",
+    "feed_url": "https://www.hankyung.com/feed/it",
+    "site_url": "https://www.hankyung.com/it",
+    "topic": "ai",
+    "language_hint": "ko",
+    "reliability": "med",
+    "tags": [
+      "korea",
+      "business"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "chosun-science",
+    "name": "조선비즈 테크",
+    "feed_url": "https://biz.chosun.com/arc/outboundfeeds/rss/category/technology/?outputType=xml",
+    "site_url": "https://biz.chosun.com/technology/",
+    "topic": "scitech",
+    "language_hint": "ko",
+    "reliability": "med",
+    "tags": [
+      "korea"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "joongang-tech",
+    "name": "중앙일보 IT",
+    "feed_url": "https://www.joongang.co.kr/rss/money.xml",
+    "site_url": "https://www.joongang.co.kr/money",
+    "topic": "scitech",
+    "language_hint": "ko",
+    "reliability": "low",
+    "tags": [
+      "korea"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "ytn-science",
+    "name": "YTN 사이언스",
+    "feed_url": "https://www.ytn.co.kr/_ln/rss.xml",
+    "site_url": "https://www.ytn.co.kr",
+    "topic": "scitech",
+    "language_hint": "ko",
+    "reliability": "low",
+    "tags": [
+      "korea"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "kist-news",
+    "name": "KIST News",
+    "feed_url": "https://www.kist.re.kr/ko/news/rss",
+    "site_url": "https://www.kist.re.kr",
+    "topic": "scitech",
+    "language_hint": "ko",
+    "reliability": "med",
+    "tags": [
+      "institution"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "kaist-news",
+    "name": "KAIST News",
+    "feed_url": "https://news.kaist.ac.kr/newsen/rss.jsp",
+    "site_url": "https://news.kaist.ac.kr",
+    "topic": "scitech",
+    "language_hint": "ko",
+    "reliability": "med",
+    "tags": [
+      "institution"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "ibm-research",
+    "name": "IBM Research",
+    "feed_url": "https://research.ibm.com/blog/rss.xml",
+    "site_url": "https://research.ibm.com/blog",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "research"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "intel-ai",
+    "name": "Intel AI",
+    "feed_url": "https://www.intel.com/content/www/us/en/artificial-intelligence/posts.rss",
+    "site_url": "https://www.intel.com/content/www/us/en/artificial-intelligence.html",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "hardware"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "apple-ml",
+    "name": "Apple ML Research",
+    "feed_url": "https://machinelearning.apple.com/rss.xml",
+    "site_url": "https://machinelearning.apple.com",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "research"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "berkeley-ai",
+    "name": "BAIR Blog",
+    "feed_url": "https://bair.berkeley.edu/blog/feed.xml",
+    "site_url": "https://bair.berkeley.edu/blog/",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "high",
+    "tags": [
+      "university"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "open-source",
+    "name": "GitHub Blog AI",
+    "feed_url": "https://github.blog/changelog/label/ai/feed/",
+    "site_url": "https://github.blog/changelog/label/ai/",
+    "topic": "ai",
+    "language_hint": "en",
+    "reliability": "med",
+    "tags": [
+      "opensource"
+    ],
+    "enabled": true
+  }
+]
